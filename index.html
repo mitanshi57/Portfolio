@@ -1808,5 +1808,28 @@ setInterval(()=>{
   setTimeout(()=>hn.style.textShadow='',90);
 },5000);
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+const supabaseUrl = "https://klvmyqyefneffpnsdanu.supabase.co";
+const supabaseKey = "sb_publishable_mzJ0ScmQizqe3gq2U9Mmrg_91FP1v8I";
+
+const client = supabase.createClient(supabaseUrl, supabaseKey);
+
+async function logVisit() {
+  try {
+    await client.from('visitors').insert([
+      {
+        user_agent: navigator.userAgent,
+        page: window.location.pathname
+      }
+    ]);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+logVisit();
+</script>
 </body>
 </html>
