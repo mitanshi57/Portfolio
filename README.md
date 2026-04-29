@@ -1,8 +1,8 @@
 #  Mitanshi Asnani — Portfolio
 
-🚀 **Live Demo:** [https://portfolio-git-main-mitanshi57s-projects.vercel.app/]
-💼 **LinkedIn:** [https://www.linkedin.com/in/mitanshi-asnani/]
-💻 **GitHub:** [https://github.com/mitanshi57]
+🚀 🚀 **Live Demo:** [Open Portfolio](https://portfolio-git-main-mitanshi57s-projects.vercel.app/)
+💼 **LinkedIn:** [Mitanshi Asnani](https://www.linkedin.com/in/mitanshi-asnani/)
+💻 **GitHub:** [mitanshi57](https://github.com/mitanshi57) 
 
 ##  About the Project
 
